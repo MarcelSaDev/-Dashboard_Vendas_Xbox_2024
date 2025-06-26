@@ -32,3 +32,25 @@ Base de dados (assinantes, planos, vendas agregadas, valores);
 Tabelas e Resumos Dinâmicos para análise e resposta a perguntas de negócio;
 
 Dashboard visual com gráficos consolidados e indicadores.
+
+Perguntas de Negócio Respondidas
+
+Qual o faturamento total de vendas de planos anuais (incluindo vendas agregadas)?
+O Excel traz a soma do valor das assinaturas anuais mais vendas extras de pacotes (se aplicável).
+
+Qual faturamento total separando assinaturas anuais com e sem auto-renovação?
+O rendimento é separado entre clientes que ativaram ou não a auto-renovação.
+
+Total de vendas de assinaturas EA Play Season Pass.
+Tabela dinâmica mostra quanto foi vendido do EA Play, separado por tipo de assinatura.
+
+Total de vendas do Minecraft Season Pass.
+Tabela dinâmica com vendas de Minecraft Season Pass, por tipo de plano.
+
+Observações
+
+Os dados são fictícios e criados para fins educacionais.
+
+Não inclui informações pessoais reais.
+
+Projeto criado apenas para treino em Excel, modelagem de dados e visualização de dashboards.
