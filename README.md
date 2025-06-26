@@ -1,56 +1,62 @@
-# -Dashboard_Vendas_Xbox_2024
+# Dashboard_Vendas_Xbox_2024
 
-Descrição do Projeto
+# Sobre o Projeto
 
-Este repositório apresenta um dashboard em Excel que analisa as vendas de assinaturas do Xbox Game Pass ao longo do ano de 2024. O objetivo é praticar análise de dados e visualização utilizando Excel, respondendo a perguntas de negócio relevantes para gestão de vendas de planos de assinatura, incluindo informações sobre auto-renovação, vendas extras de pacotes (“Season Passes”) e o impacto de cupons de desconto no resultado final.
+Este projeto consiste em um dashboard interativo desenvolvido no Excel para análise das vendas de assinaturas do Xbox Game Pass durante o ano de 2024. O objetivo é demonstrar habilidades de manipulação e visualização de dados, respondendo a perguntas de negócio fundamentais para entender o desempenho das assinaturas, seus diferenciais e impactos de vendas agregadas e cupons.
 
-Dataset Utilizado
+# Dados Utilizados
 
-O arquivo Dashboard_Vendas_Xbox_2024.xlsx contém:
+O arquivo Dashboard_Vendas_Xbox_2024.xlsx contém informações fictícias de vendas e assinantes ao longo de 2024, simulando uma operação real de assinaturas de serviços Xbox. As principais colunas/dimensões disponíveis são:
 
-Todos os assinantes e vendas realizadas em 2024 (dados fictícios para fins educacionais).
+Subscriber ID, Nome
 
-Informações detalhadas como tipo do plano, preços, auto renovação, vendas agregadas (pacotes EA Play e Minecraft Season Pass), valores de cupons aplicados, e soma total por assinatura.
-Tabelas dinâmicas que respondem a perguntas de negócio, como:
+Plano: Ultimate, Core, Standard
 
-1. Faturamento total de vendas de planos anuais (com todas assinaturas agregadas).
+Data de Início, Renovação Automática
 
-2. Faturamento de planos anuais separados entre assinaturas com e sem auto-renovação.
+Valor da Assinatura, Tipo da Assinatura (Mensal, Anual, Trimestral)
 
-3. Total de vendas de assinaturas do EA Play Season Pass.
+Vendas agregadas: EA Play Season Pass, Minecraft Season Pass e seus valores
 
-4. Total de vendas do Minecraft Season Pass.
+Valor de cupom aplicado
 
-Estrutura do Arquivo Excel
+Valor total de cada venda
 
-O Excel está dividido em:
+Além da base de dados, o arquivo contém paleta de cores, área de logos, ícones e todas as tabelas dinâmicas utilizadas nas análises.
 
-Paleta de cores e elementos visuais do dashboard;
+Principais Análises e Indicadores do Dashboard
 
-Base de dados (assinantes, planos, vendas agregadas, valores);
+O dashboard responde, de forma clara, às seguintes perguntas de negócio:
 
-Tabelas e Resumos Dinâmicos para análise e resposta a perguntas de negócio;
+Faturamento Total de Vendas de Planos Anuais
 
-Dashboard visual com gráficos consolidados e indicadores.
+Inclusão de todos os planos anuais e valores agregados (pass, cupons etc).
 
-Perguntas de Negócio Respondidas
+Faturamento de Planos Anuais Separado por Auto-Renovação
 
-Qual o faturamento total de vendas de planos anuais (incluindo vendas agregadas)?
-O Excel traz a soma do valor das assinaturas anuais mais vendas extras de pacotes (se aplicável).
+Analisa a diferença entre clientes que optam ou não por auto-renovação.
 
-Qual faturamento total separando assinaturas anuais com e sem auto-renovação?
-O rendimento é separado entre clientes que ativaram ou não a auto-renovação.
+Total de Vendas de Assinaturas EA Play Season Pass
 
-Total de vendas de assinaturas EA Play Season Pass.
-Tabela dinâmica mostra quanto foi vendido do EA Play, separado por tipo de assinatura.
+Soma de todas as vendas de EA Play, por tipo de assinatura.
 
-Total de vendas do Minecraft Season Pass.
-Tabela dinâmica com vendas de Minecraft Season Pass, por tipo de plano.
+Total de Vendas de Assinaturas Minecraft Season Pass
 
-Observações
+Soma de todas as vendas desse pacote agregado, por tipo de assinatura.
 
-Os dados são fictícios e criados para fins educacionais.
+Os resultados utilizados no dashboard estão organizados em tabelas dinâmicas, facilitando a atualização automática dos indicadores ao inserir novos dados.
 
-Não inclui informações pessoais reais.
+Sinta-se à vontade para inserir novos dados ou modificar filtros para observar o comportamento e as respostas às perguntas de negócio.
 
-Projeto criado apenas para treino em Excel, modelagem de dados e visualização de dashboards.
+# Observações Importantes
+Todos os dados do arquivo são fictícios, criados apenas para fins de estudo e demonstração de técnicas de análise no Excel.
+O dashboard faz uso de recursos de tabelas dinâmicas, formatação condicional, uso de cores e organização visual para melhor entendimento dos resultados.
+Contribuição
+
+Sinta-se livre para sugerir melhorias, apontar erros ou compartilhar suas adaptações deste dashboard. Basta criar uma issue ou um pull request!
+
+# Autor
+
+Desenvolvido por Marcel no contexto de estudos e capacitação em análise de dados e Excel.
+
+Este projeto não é afiliado à Microsoft ou Xbox. Para fins puramente educacionais.
